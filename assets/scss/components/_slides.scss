@@ -1,0 +1,18 @@
+.slides {
+
+	&__arrow {
+		display: inline-block;
+		position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	&__arrow--prev {
+		left: -70px;
+	}
+
+	&__arrow--next {
+		right: -70px;
+	}
+    
+}
